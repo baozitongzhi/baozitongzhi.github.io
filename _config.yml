@@ -1,8 +1,7 @@
 theme: minima
 title: Andy Aerospace Lab
-description: CFD • Aviation • Blender • Engines
+description: Aviation • Blender • Flow Visualization
 
 header_pages:
   - projects.md
-  - cfd.md
   - log.md
