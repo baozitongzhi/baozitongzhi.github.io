@@ -6,31 +6,23 @@ permalink: /log/
 
 # Learning Log
 
-## Stage 1 — Blender Basics and Flow Visualization
+## My First Blender Airflow Experiment
 
-### What I Learned
+I started this project because I noticed the condensation cloud behind a Lufthansa A340-600 I photographed before. I wanted to see if I could recreate something similar in Blender.
 
-- How to import and inspect an aircraft model in Blender
-- How to use Object Mode and Edit Mode
-- How to duplicate objects and mesh parts
-- How to create inflow objects
-- How to set up a gas domain
-- How to bake smoke simulation data
-- How to use Wind Force Field
-- How to adjust volume material settings
-- How to reduce overly thick smoke
-- How to make smoke more transparent
-- How collision thickness affects flow near the wing
+At first, I honestly thought airflow visualization would be simple. I created a large plane in front of the aircraft and used it to generate smoke. Technically it worked, but the result looked more like fog filling the entire scene than actual airflow.
 
-### Important Realizations
+So I tried turning the plane into multiple stripes instead. That already looked much better. The smoke finally started to resemble separate flow lines instead of one giant cloud.
 
-- Blender smoke is not real CFD.
-- Wind Force Field is needed to create a more directional flow.
-- Smoke density and material density are different.
-- Large domains reduce detail and hurt performance.
-- Cache must be cleared and baked again after changing simulation settings.
-- Collision thickness can make airflow appear too far from the aircraft surface.
+Later, I replaced the stripes with many small lined cubes. That was the first moment where the flow started to feel more directional and aerodynamic instead of random smoke.
 
-### Current Focus
+I also spent a ridiculous amount of time trying to understand why the smoke kept exploding, disappearing, or spreading everywhere. Eventually I realized most of the problems came from things like:
+- wind strength
+- collision thickness
+- domain size
+- rebaking cache
+- smoke density vs material density
 
-Improving Blender-based vapor cloud visualization around the A340-600 wing.
+One thing that surprised me was how different visual smoke simulation is from real CFD. Before this project, I thought adding smoke automatically meant “airflow.” But now I understand that smoke is only a visualization tool. Without a proper flow field, it just behaves like drifting fog.
+
+I am still very early in this process, but this project already changed the way I look at aircraft wake turbulence and condensation clouds.
