@@ -4,25 +4,90 @@ title: Learning Log
 permalink: /log/
 ---
 
+# 2026/5/18 to 2026/5/28  A346 wing's airflow visualization
 
 
-## My First Blender Airflow Experiment
+## 5/21
 
-I started this project because I noticed the condensation cloud behind a Lufthansa A340-600 I photographed before. I wanted to see if I could recreate something similar in Blender.
+### Works
 
-At first, I honestly thought airflow visualization would be simple. I created a large plane in front of the aircraft and used it to generate smoke. Technically it worked, but the result looked more like fog filling the entire scene than actual airflow.
+Learned the basic controls of Blender
+Downloaded an Airbus 340-600 model from the Internet and imported it into Blender
+Build a huge plane object in front of A346 for smoke generation
+Build a domain with "inflow" property
 
-So I tried turning the plane into multiple stripes instead. That already looked much better. The smoke finally started to resemble separate flow lines instead of one giant cloud.
+### Problems
 
-Later, I replaced the stripes with many small lined cubes. That was the first moment where the flow started to feel more directional and aerodynamic instead of random smoke.
+Failed to generate smoke from the inflow object
+Smoke simulation did not appear correctly in the viewport
+Limited understanding of Blender physics workflow
+Smoke shape was unrealistic
 
-I also spent a ridiculous amount of time trying to understand why the smoke kept exploding, disappearing, or spreading everywhere. Eventually I realized most of the problems came from things like:
-- wind strength
-- collision thickness
-- domain size
-- rebaking cache
-- smoke density vs material density
 
-One thing that surprised me was how different visual smoke simulation is from real CFD. Before this project, I thought adding smoke automatically meant “airflow.” But now I understand that smoke is only a visualization tool. Without a proper flow field, it just behaves like drifting fog.
+## 5/22
 
-I am still very early in this process, but this project already changed the way I look at aircraft wake turbulence and condensation clouds.
+### Works
+
+Continued studying Blender smoke simulation workflow
+Learned the cache and bake system for fluid simulations
+Tested Replay, Modular, and Final cache modes
+Adjusted smoke density, wind direction, and domain resolution
+Experimented with volumetric rendering settings
+
+### Problems
+
+Smoke appeared in Solid View but disappeared in Render View
+Rendered output was inconsistent with viewport preview
+
+
+## 5/23
+
+### Works
+
+Rebuilt the smoke simulation system from scratch
+Adjusted Wind Force Field parameters
+
+### Problems
+
+Smoke motion looked unnatural and chaotic
+
+
+## 5/24
+
+### Works
+
+Began learning Blender rendering workflow
+Studied the difference between Cycles and viewport rendering
+Learned sampling and denoising settings
+
+### Problems
+
+Render times became extremely long
+Hardware performance became a major limitation
+
+
+## 5/25 to 5/27
+
+### Works
+
+Attempted to install additional Blender add-ons
+
+### Problems
+
+Plugin installation attempts were not always successful
+
+
+## 5/28
+
+### Works
+
+Learned Blender camera workflow and scene composition
+Learned how to align the camera to the current viewport
+Began using F12 for final rendering
+Learned image export and animation rendering workflow
+Learned PNG sequence rendering and FFmpeg video export
+
+### Problems
+
+Viewport Render Image did not display the expected result
+Final render output appeared empty despite visible viewport content
