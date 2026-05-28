@@ -16,8 +16,8 @@ permalink: /projects/
 
 ![](/images/A346_4.0.png)
 
-<video autoplay loop muted playsinline width="800">
-  <source src="/images/0000-1000.mp4" type="video/mp4">
+<video controls autoplay loop muted width="800">
+  <source src="{{ '/images/0000-0100.mp4' | relative_url }}" type="video/mp4">
 </video>
 
 This is my first aviation visualization project in Blender.
