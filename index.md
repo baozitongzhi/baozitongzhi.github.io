@@ -1,11 +1,11 @@
 ---
 layout: home
-title: Airplanes
+title: Aviation
 ---
 
-# Andy's Aerospace Lab
+# Airplanes
 
-Aviation • Blender • Flow Visualization • Engines
+Aviation • Flow Visualization • Engines
 
 I am documenting my learning journey in aviation visualization, starting with Blender-based airflow and vapor cloud experiments around an Airbus A340-600 model.
 
