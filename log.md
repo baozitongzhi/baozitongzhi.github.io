@@ -4,7 +4,7 @@ title: Learning Log
 permalink: /log/
 ---
 
-# Learning Log
+
 
 ## My First Blender Airflow Experiment
 
