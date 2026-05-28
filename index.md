@@ -1,9 +1,9 @@
 ---
 layout: home
-title: Andy Aerospace Lab
+title: Airplanes
 ---
 
-# Andy Aerospace Lab
+# Andy's Aerospace Lab
 
 Aviation • Blender • Flow Visualization • Engines
 
