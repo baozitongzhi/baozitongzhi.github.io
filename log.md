@@ -10,14 +10,14 @@ permalink: /log/
 
 ## 5/21
 
-### Works
+### Work Completed
 
 - Learned the basic controls of Blender
 - Downloaded an Airbus A340-600 model from the Internet and imported it into Blender
 - Built a huge plane object in front of A346 for smoke generation
 - Built a domain with "inflow" property
 
-### Problems
+### Problems Encountered
 
 - Failed to generate smoke from the inflow object
 - Smoke simulation did not appear correctly in the viewport
@@ -35,7 +35,7 @@ permalink: /log/
 
 ## 5/22
 
-### Works
+### Work Completed
 
 - Continued studying Blender smoke simulation workflow
 - Learned the cache and bake system for fluid simulations
@@ -43,7 +43,7 @@ permalink: /log/
 - Adjusted smoke density, wind direction, and domain resolution
 - Experimented with volumetric rendering settings
 
-### Problems
+### Problems Encountered
 
 - Smoke appeared in Solid View but disappeared in Render View
 - Rendered output was inconsistent with viewport preview
@@ -59,12 +59,12 @@ permalink: /log/
 
 ## 5/23
 
-### Works
+### Work Completed
 
 - Rebuilt the smoke simulation system from scratch
 - Adjusted Wind Force Field parameters
 
-### Problems
+### Problems Encountered
 
 - Smoke motion looked unnatural and chaotic
 
@@ -78,13 +78,13 @@ permalink: /log/
 
 ## 5/24
 
-### Works
+### Work Completed
 
 - Began learning Blender rendering workflow
 - Studied the difference between Cycles and viewport rendering
 - Learned sampling and denoising settings
 
-### Problems
+### Problems Encountered
 
 - Render times became extremely long
 - Hardware performance became a major limitation
@@ -99,11 +99,10 @@ permalink: /log/
 
 ## 5/25 to 5/27
 
-### Works
-
+### Work Completed
 - Attempted to install additional Blender add-ons
 
-### Problems
+### Problems Encountered
 
 - Plugin installation attempts were not always successful
 - Some add-ons were incompatible with the Blender version
@@ -118,7 +117,7 @@ permalink: /log/
 
 ## 5/28
 
-### Works
+### Work Completed
 
 - Learned Blender camera workflow and scene composition
 - Learned how to align the camera to the current viewport
@@ -126,7 +125,7 @@ permalink: /log/
 - Learned image export and animation rendering workflow
 - Learned PNG sequence rendering and FFmpeg video export
 
-### Problems
+### Problems Encountered
 
 - Viewport Render Image did not display the expected result
 - Final render output appeared empty despite visible viewport content
